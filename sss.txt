@@ -1,0 +1,62 @@
+how to print a statement in java without using semicolon
+
+public class PrintWithoutSemicolon {
+    public static void main(String[] args) {
+        if (System.out.printf("Hello, World!\n") == null) {}
+    }
+}
+
+
+public class PrintWithoutSemicolonForLoop {
+    public static void main(String[] args) {
+        for (int i = 0; i < 1; System.out.println("Hello, World!")) {
+            i++;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bitwise Op
+
+5 & 10
+
+       128  64  32 16  8  4  2  1
+             1   1  1  1  0  1  1 -> 123
+                    0  0  1  0  1-> 5   (&)
+         ------------------------
+                   0  0  0  0 -> 0 - val
+         ------------------------  (|)
+                   1  1  1  1 -> 15
+
+'
+
+
+
+
+
+    16  8  4  2  1
+1 -              1
+2 -           1  0
+3 -           1  1
+
+
+
+
+
+
+
+
+
